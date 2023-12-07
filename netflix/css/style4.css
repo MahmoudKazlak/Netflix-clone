@@ -1,0 +1,120 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    line-height: 1.5;
+    height: 2000px;
+    background-color: black;
+}
+.navbar-brand {
+    width: 150px;
+}
+.header{
+    background-image: url('../img/header.webp');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.header-content p {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 0.1vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    width: 40%;
+}
+.header-content .play {
+    background-color: #fff;
+    padding: 8px 22px;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+.header-content .info {
+    background-color: rgba(109, 109, 110, 0.7);
+    padding: 8px 22px;
+    border-radius: 4px;
+    color: white;
+}
+.header-content .info:hover{
+    background-color:rgba(189, 180, 180, 0.7);
+    cursor: pointer;
+}
+.header-content .play i, .header-content .info i {
+    font-size: 23px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    
+}
+.header-content .play{
+    text-decoration: none;
+}
+.header-content .play a{
+    color: black;   
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-content .info i,.header-content .info a{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+.header .icons {
+    position: absolute;
+    right: 0;
+    bottom: 4vh;
+}
+.header .icons i {
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 20px;
+    border: 1px solid #fff;
+}
+.header .icons .age{
+    background-color: rgba(109, 109, 110, 0.4);
+    color: #fff;
+    padding: 5px 29px;
+    border-left: 2px solid #fff;
+}
+.action .desc,.trend .desc,.releases .desc,.period .desc{
+    visibility: visible ;
+}
+.row .img:hover{
+    transition: 0.5s;
+    transition-timing-function:300ms ;
+    transform: scale(1.1);
+    
+}
+
+.quick-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer  a{
+    text-decoration: none;
+}
+
+section .title {
+    line-height: 1.25vw;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+}
+.img {
+    position: relative;
+    padding: 0 5px;
+    transition: .3s ease;
+}
+
+
